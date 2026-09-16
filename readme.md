@@ -1,119 +1,209 @@
-# Repository-Wide Personal Branding
+# Repository Identity & Author Guidelines
 
-## Scope
+## Repository Purpose
 
-Apply these defaults to user-facing writing and presentation throughout this
-repository: website copy, portfolio content, product messaging, UI text,
-documentation intended for customers, profiles, case studies, social content,
-presentations, and calls to action.
+This repository is a collection of reusable **AI Agent Skills** designed to
+give AI coding and productivity agents better workflows, domain knowledge,
+decision rules, and output standards.
 
-Do not apply the brand voice to code, test names, dependency metadata, or
-internal implementation comments unless the user explicitly asks for it.
+The skills are intended to be portable across compatible agent environments
+where practical, including tools that support the `SKILL.md` Agent Skills
+format.
 
-## Source of Truth
+Each skill should solve a specific, repeatable problem and remain useful
+independently of the author's personal brand.
 
-For personal-brand decisions, read:
+Examples may include:
 
-1. `writing-conversion-copy/detailed.md` for the brand identity, visual
-   direction, voice, messaging, and guardrails.
-2. `writing-conversion-copy/SKILL.md` for the writing workflow and conversion
-   copy standards.
+- writing and conversion copy
+- software engineering workflows
+- architecture guidance
+- code review procedures
+- development conventions
+- agent handoffs
+- product and UX workflows
+- documentation workflows
+- reusable specialist instructions
 
-The current user request always takes priority. When no specific direction is
-given, use this file for repository-wide defaults and `detailed.md` for the
-brand system.
+The repository exists to turn useful working methods into reusable agent
+capabilities.
 
-## Brand Direction
+---
 
-The working identity is a sharp, technical, premium, human personal brand
-represented by a stylized THX monogram. Its central idea is:
+# Repository Identity
 
-> Make complex work feel clear, deliberate, and ready to move forward.
+## Name
 
-The brand should communicate clarity, craft, momentum, and trust. It should
-feel confident without boasting, technical without becoming cold, and modern
-without relying on trend language.
+**Agent Skills**
 
-## Writing Rules
+Repository:
 
-- Lead with the reader's situation, outcome, or reason to care.
-- Write for one primary reader at a time.
-- Use concrete nouns, active verbs, and specific language.
-- Explain the benefit before the implementation when that improves clarity.
-- Keep sections easy to scan with useful headings and short paragraphs.
-- Put evidence close to the claim it supports.
-- Use calls to action that state a verb and an outcome.
-- Preserve the author's natural personality and intentional informality.
-- Remove filler, generic introductions, corporate padding, and AI-sounding
-  phrasing.
-- Keep the promise in the hero, headline, or opening consistent with the body.
+`Hx-313/agent-skills`
 
-## Truth and Evidence
+## Positioning
 
-Never invent or imply unverified:
+A growing collection of practical, reusable Agent Skills for developers,
+builders, and AI-assisted workflows.
 
-- metrics, growth, revenue, conversion, or performance results
-- clients, customers, testimonials, awards, partnerships, or certifications
-- seniority, scale, production impact, or capabilities
-- technical details that have not been confirmed
+The repository should feel:
 
-When proof is missing, narrow the claim, use a clear placeholder, or describe
-the work without claiming a result.
+- technical
+- practical
+- deliberate
+- well documented
+- reusable
+- human authored
+- production minded
 
-## Visual Defaults
+Avoid presenting it as an AI prompt dump or a collection of random prompts.
 
-Use the supplied mark and `detailed.md` as the visual reference. The working
-palette is near-black, graphite, silver, ice white, electric cyan, and signal
-teal.
+These are structured workflows and specialist instructions intended to improve
+how an agent performs a task.
 
-- Prefer dark, high-contrast surfaces with restrained cyan or teal accents.
-- Preserve the logo's proportions, colors, and clear space.
-- Use geometric structure, strong alignment, and generous spacing.
-- Let accents guide attention instead of decorating every surface.
-- Prefer readable grotesk typography over novelty display fonts.
-- Avoid busy backgrounds, excessive neon, generic stock imagery, and visual
-  effects that compete with the mark.
+---
 
-If the repository already has design tokens or a component system, extend
-those centralized definitions rather than scattering new brand values across
-individual files.
+# Author Identity
 
-## Content Patterns
+This repository is created and maintained by:
 
-### Page or feature
+**Hafiz Ali Abdullah**
+
+Developer identity:
+
+**itHX**
+
+GitHub:
+
+**Hx-313**
+
+Use the official supplied **itHX logo** when visual author branding is
+appropriate.
+
+Do not reinterpret, redraw, rename, or describe the logo as another mark.
+
+The logo is the author's identity, not the identity of every skill contained
+in this repository.
+
+---
+
+# Relationship Between Repository and Personal Brand
+
+Keep these concepts separate.
+
+## Repository brand
+
+The repository is:
+
+**Agent Skills**
+
+Its subject is reusable AI-agent workflows and specialist skills.
+
+## Creator brand
+
+The creator identity is:
+
+**itHX / Hafiz Ali Abdullah**
+
+The personal brand communicates engineering craft, thoughtful product
+development, clarity, and deliberate execution.
+
+Use itHX branding to establish authorship and consistency.
+
+Do not turn every skill into an itHX advertisement.
+
+---
+
+# Where Personal Branding Belongs
+
+Use itHX branding in places such as:
+
+- repository README
+- repository banner or social preview
+- GitHub profile references
+- documentation footer or attribution
+- project website
+- release announcements
+- social posts
+- screenshots or promotional graphics
+- author/about sections
+
+A simple attribution is normally enough:
+
+> Built by Hafiz Ali Abdullah · itHX
+
+or:
+
+> An itHX project by Hafiz Ali Abdullah
+
+Do not repeat the author's name or branding throughout technical documentation
+when it adds no value.
+
+---
+
+# Where Personal Branding Does NOT Belong
+
+Do not inject itHX branding into:
+
+- skill instructions
+- generated user output
+- source code
+- tests
+- configuration
+- dependency metadata
+- schemas
+- scripts
+- internal implementation notes
+- prompts produced by a skill
+- user-facing copy generated by a skill
+
+unless the task specifically concerns the itHX brand.
+
+A user installing a skill should receive the capability, not the author's
+personal voice.
+
+---
+
+# Skill Independence
+
+Every skill should remain self-contained.
+
+A skill should define:
+
+- what it does
+- when it should activate
+- its workflow
+- important constraints
+- expected output
+- relevant checks
+
+Do not make unrelated skills depend on personal-brand documentation.
+
+Do not apply one skill's writing style, architecture rules, or domain
+assumptions to another skill unless that relationship is intentional.
+
+Repository-level instructions must not silently change the behavior of every
+skill.
+
+---
+
+# Repository Structure
+
+Prefer a structure such as:
 
 ```text
-Audience or context → useful outcome → how it works → proof → next action
-```
-
-### Portfolio project
-
-```text
-Problem → role and constraints → key decisions → work → supported result → lesson
-```
-
-### Social post
-
-```text
-Useful opening → explanation or example → practical implication
-```
-
-Use these as defaults, not mandatory templates. Follow the user's requested
-format when it calls for a different structure.
-
-## Repository Review Checklist
-
-Before finalizing brand-related work, check:
-
-- Does the reader understand what this is and why it matters quickly?
-- Is the intended audience specific enough?
-- Is the main claim supported or appropriately narrowed?
-- Does the tone feel direct, thoughtful, technical, and human?
-- Are the headline, body, visuals, and CTA saying the same thing?
-- Is the copy easy to scan without becoming choppy?
-- Are the logo, palette, spacing, and contrast handled consistently?
-- Did any generic, inflated, or AI-sounding language slip in?
-- Were any facts, credentials, results, or proof points invented?
-
-Return finished copy when finished copy is requested. Explain the reasoning
-only when the user asks for critique, alternatives, or a review.
+agent-skills/
+├── README.md
+├── LICENSE
+├── AGENTS.md
+├── assets/
+│   └── branding/
+│       └── ithx-logo.*
+└── skills/
+    ├── writing-conversion-copy/
+    │   ├── SKILL.md
+    │   └── references/
+    │       └── ...
+    │
+    └── another-skill/
+        ├── SKILL.md
+        └── ...
