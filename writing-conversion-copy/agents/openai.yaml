@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conversion Copywriting"
+  short_description: "Write clearer copy that drives action"
+  default_prompt: "Use $writing-conversion-copy to make this copy clearer, more specific, and more persuasive."
