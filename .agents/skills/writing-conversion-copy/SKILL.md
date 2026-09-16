@@ -12,6 +12,7 @@ description: >
   copy for clarity, persuasion, credibility, scannability, engagement, or
   conversion. Also use when removing generic, robotic, corporate, padded,
   cliché, or AI-sounding writing.
+license: MIT
 ---
 
 # Conversion Copywriting
@@ -23,6 +24,13 @@ next action obvious.
 
 User instructions override defaults in this skill when they explicitly
 request a different style or structure.
+
+## Personal Brand Reference
+
+When writing for the personal brand represented by this skill, read
+[detailed.md](detailed.md) first. Use it as the source of truth for the
+brand's working voice, messaging, and visual direction. Apply the conversion
+copy workflow in this file to the specific deliverable.
 
 ## Quick Apply
 
@@ -439,4 +447,3 @@ If the user asks for critique, identify:
 If required factual information is missing, do not invent it.
 
 Make the strongest truthful version possible from the available context.
-
